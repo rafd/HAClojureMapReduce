@@ -1,0 +1,52 @@
+Clojure
+
+  LISP + Functional
+
+  runs on JVM (and other)
+  macros
+  mutable Structures
+
+
+LISP
+
+  "LISt Processing"
+
+  polish prefix notation
+  s-expressions
+  code-as-data -> macros!
+
+  little syntax, language gets out of your way
+
+  as opposed to python, there's more than one way to do something, so it's best to have an idea of what well organized code looks like
+
+  tip: design from the high-level down
+
+  see: scheme, common lisp, clojure
+
+
+Functional Programming
+
+  first-order functions
+  no state or mutable data (well... sometimes state, but it is explicitly managed)
+  f(f(f(f(f()))))
+
+  no side effects: f(x,y) @ t1 === f(x,y) @ t2
+
+  lots of recursion
+
+
+LightTable
+
+  instaREPL
+
+  works with: Python, Javascript/HTML/CSS, Clojure
+
+  Cmd - O  -> opening files in your workspace
+  Cmd - Space  -> commands
+
+
+MapReduce
+
+  efficiently run scripts in parallel, across servers and time
+
+  see: hadoop
